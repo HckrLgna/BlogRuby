@@ -30,6 +30,13 @@
 /public/assets
 .byebug_history
 
+# Ignorar otros archivos innecesarios 
+doc/
+*.swp
+*~
+.project
+.DS_Store
+
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
